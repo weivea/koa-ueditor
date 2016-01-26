@@ -20,7 +20,7 @@ var render = views('views', {
 
 app.use(serve('public'));
 
-var ueditor = require('../index.js')("public");
+var ueditor = require('koa-ueditor')("public");
 route.all('/ueditor/ue', ueditor);
 
 

@@ -6,11 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weivea/koa-ueditor.git"
+  },
+
   "keywords": [
     "ueditor"
   ],
   "author": "weivea",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weivea/koa-ueditor/issues"
+  },
   "dependencies": {
     "co-busboy": "^1.3.1",
     "thunkify": "^2.1.2"
