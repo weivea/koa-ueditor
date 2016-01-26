@@ -18,9 +18,10 @@ var render = views('views', {
     map: { html: 'ejs' }
 });
 
-app.use(serve('public'));
+var staticsPath = 'public';
+app.use(serve(staticsPath));
 
-var ueditor = require('koa-ueditor')("public");
+var ueditor = require('koa-ueditor')(staticsPath);
 route.all('/ueditor/ue', ueditor);
 
 
