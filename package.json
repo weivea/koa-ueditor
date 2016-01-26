@@ -1,6 +1,6 @@
 {
   "name": "koa-ueditor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于koa.js 的ueditor",
   "main": "index.js",
   "scripts": {
